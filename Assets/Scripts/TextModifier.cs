@@ -1,10 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TMPro;
 
-public class TextModify : MonoBehaviour
+public class TextModifier : MonoBehaviour
 {
-    public TMP_Text targetText;
+    public TextAnimation target;
     public string newText = "";
 
     void Update()
@@ -13,9 +12,8 @@ public class TextModify : MonoBehaviour
 
         var cam = Camera.main;
         var hit = Physics2D.GetRayIntersection(cam.ScreenPointToRay(Mouse.current.position.ReadValue()));
-        if (!hit) return;
+        if (!hit || hit.transform != transform || target == null) return;
 
-        if (hit.transform == transform && targetText != null)
-            targetText.text = newText;
+        target?.Play(newText);
     }
 }
