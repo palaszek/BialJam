@@ -580,7 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ccf7b6db3cb5e94b8219939e1eaa3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NazwaSceny: Scena2
+  NazwaSceny: SampleScene2
   CzasPrzejscia: 1
   transition: {fileID: 632889939}
 --- !u!61 &2002982557

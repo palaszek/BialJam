@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7950810421689892450, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 532406883}
     - target: {fileID: 8078771476718589590, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -487,7 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ccf7b6db3cb5e94b8219939e1eaa3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NazwaSceny: Scena2
+  NazwaSceny: SampleScene2
   CzasPrzejscia: 1
   transition: {fileID: 6284917347430087249}
 --- !u!1 &647931755 stripped
