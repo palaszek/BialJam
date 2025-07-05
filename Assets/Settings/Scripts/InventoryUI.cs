@@ -15,7 +15,11 @@ public class InventoryUI : MonoBehaviour
     {
         // zainicjuj wszystkie sloty jako nieaktywne
         foreach (var s in slots)
+        {
             s.SetSelected(false);
+            var img = s.GetComponent<Image>();
+            img.sprite = emptySlotSprite;
+        }
     }
 
     // wywo³ujesz po ka¿dej zmianie inventory

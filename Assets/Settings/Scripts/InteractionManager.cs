@@ -26,21 +26,18 @@ public class InteractionManager : MonoBehaviour
 
     void HandleRequiredItem(RequiredItemInteraction req)
     {
-        var sel = inventoryManager.GetSelectedItem();
-        if (sel == null)
+        // 1) SprawdŸ, czy w inventory jest wymagany item
+        if (!inventoryManager.HasItem(req.requiredItemName))
         {
             textAnimation.Play($"Potrzebujesz: {req.requiredItemName}");
             return;
         }
 
-        if (sel.itemName != req.requiredItemName)
-        {
-            textAnimation.Play($"Ten obiekt wymaga: {req.requiredItemName}");
-            return;
-        }
-
-        textAnimation.Play($"U¿ywasz {sel.itemName} na {req.gameObject.name}");
+        // 2) Masz item, wiêc wykonaj akcjê
+        textAnimation.Play($"U¿ywasz: {req.requiredItemName}");
         req.onUse.Invoke();
-        inventoryManager.RemoveSelectedItem();
+
+        // 3) Usuñ go z inventory
+        inventoryManager.RemoveItemByName(req.requiredItemName);
     }
 }

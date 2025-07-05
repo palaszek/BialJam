@@ -1,5 +1,6 @@
 using NUnit.Framework.Interfaces;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEditor.Progress;
@@ -70,6 +71,23 @@ public class InventoryManager : MonoBehaviour
     }
     public InventoryItem GetSelectedItem()
       => inventoryUI.GetSelectedItem(items);
+
+    public bool HasItem(string itemName)
+    {
+        return items.Any(i => i.itemName == itemName);
+    }
+
+    // Usuwa pierwszy napotkany item o danej nazwie
+    public bool RemoveItemByName(string itemName)
+    {
+        var item = items.FirstOrDefault(i => i.itemName == itemName);
+        if (item == null) return false;
+        items.Remove(item);
+        // Je¿eli chcesz odœwie¿yæ UI (np. ikonki)
+        inventoryUI.UpdateUI(items);
+        Debug.Log($"Usuniêto z inventory: {item.itemName}");
+        return true;
+    }
 }
 
 

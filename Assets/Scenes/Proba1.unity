@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 166922587907419015, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: emptySlotSprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -1432957167796845709, guid: 2e25985c1d8fe474cbf04821e38f6a59, type: 3}
     - target: {fileID: 756014332663416953, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.03
@@ -152,9 +152,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 532406883}
     - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: sprites.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: 'sprites.Array.data[0]'
       value: 
       objectReference: {fileID: 3136411389044545387, guid: 66e76d60ab33a254882672f9e5118c73, type: 3}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: 'sprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: -7626235259702147734, guid: 35c33a923910c5141bf283283eb6962e, type: 3}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: 'sprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 7782430858874864307, guid: f6a528cb45643ac4c9bc68dad8992d68, type: 3}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: 'sprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1865570054352058883, guid: 41d322e1c0bf3c349969e450df4ebe4a, type: 3}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: 'sprites.Array.data[4]'
+      value: 
+      objectReference: {fileID: 314238484375621114, guid: 629352a6ac4e54046953004a1256c59d, type: 3}
     - target: {fileID: 6880812681722693277, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -546,15 +566,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1504018603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2718a59fb2e57344bbc1347c0d3f4522, type: 3}
+  m_Script: {fileID: 11500000, guid: 3aaa004f1be35074a9a050f951429b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   useText: 1
-  newText: Alabama twoja siostra
+  newText: "Mimic nape\u0142nia cie spo\u0142ecze\u0144stwem"
   useHumanity: 1
   humanityAmount: 5
-  useNote: 1
-  noteIndex: 1
+  useNote: 0
+  noteIndex: 0
 --- !u!212 &1504018606
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -668,7 +688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847282510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 747f3304722ab1649bee4f65bc9a8cc3, type: 3}
+  m_Script: {fileID: 11500000, guid: b2d512fe089d654489fa019818ff923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Klucz 14
@@ -900,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 1979410379}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.17, y: 1.98, z: 0}
+  m_LocalPosition: {x: -11.4, y: 2.41, z: 0}
   m_LocalScale: {x: 0.495256, y: 0.49318767, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
