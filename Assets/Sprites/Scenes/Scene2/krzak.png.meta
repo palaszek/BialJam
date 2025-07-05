@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 0e54848bb6501b647ab8b36ae5314dc1
+guid: b2e1b1e934cef254b912a86a5bdd5a62
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6036784522049279274
-    second: sketch1751708406627_0
-  - first:
-      213: 3698758153296604683
-    second: sketch1751708406627_1
-  - first:
-      213: 4443654577523215773
-    second: sketch1751708406627_2
+      213: -5651559782663637561
+    second: krzak_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sketch1751708406627_0
+      name: krzak_0
       rect:
         serializedVersion: 2
-        x: 1235
-        y: 19
-        width: 334
-        height: 761
+        x: 329
+        y: 0
+        width: 1225
+        height: 322
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6da2da12678093ca0800000000000000
-      internalID: -6036784522049279274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sketch1751708406627_1
-      rect:
-        serializedVersion: 2
-        x: 1912
-        y: 373
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0ee25d81f0a45330800000000000000
-      internalID: 3698758153296604683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sketch1751708406627_2
-      rect:
-        serializedVersion: 2
-        x: 1513
-        y: 364
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9d4fc57b480bad30800000000000000
-      internalID: 4443654577523215773
+      spriteID: 7c533772250a191b0800000000000000
+      internalID: -5651559782663637561
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sketch1751708406627_0: -6036784522049279274
-      sketch1751708406627_1: 3698758153296604683
-      sketch1751708406627_2: 4443654577523215773
+      krzak_0: -5651559782663637561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
