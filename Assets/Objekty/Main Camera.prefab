@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 4556673897407612820}
   - component: {fileID: 7877041850289492133}
   - component: {fileID: 5545609148723343886}
+  - component: {fileID: 1714142701451220828}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -233,10 +234,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftZone: {fileID: 8537291906976662265}
   rightZone: {fileID: 7822613575504127467}
-  target: {fileID: 0}
+  targetObjectName: Sceneria
   scrollSpeed: 10
-  minX: -8
-  maxX: 8
+  margin: 0
+--- !u!114 &1714142701451220828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3501121975957755424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a539784397fff429ccd290609057b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7424872541201413952
 GameObject:
   m_ObjectHideFlags: 0

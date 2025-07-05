@@ -23,6 +23,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScenes/Scene3.unity
     guid: 1ed7be6cd71e5b64eb466daa57d3cee7
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene1.unity
+    guid: b6bd03db9d5782941bf182185c18e5f3
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene2.unity
+    guid: 7333fc0558fe5e942ae25fb3c3a6f9b8
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene4.unity
+    guid: 830d3a7cfc560c6438e452a0320c9b3c
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene5.unity
+    guid: 3d181fa8a0bb7bc44a390e312af9fb8a
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene6.unity
+    guid: d7e230007dbcf764299c4e5c9796f3a7
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene7.unity
+    guid: 74c3da56c88d129479266c63a421d0df
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene8.unity
+    guid: b9e515e9c54f54d4faac16bf4c6487b9
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene9.unity
+    guid: 670fd40e3f7eaf24098d34b57f007c8b
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Scene10.unity
+    guid: dd04ba926e5c0f044abd91e72cf79c47
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
