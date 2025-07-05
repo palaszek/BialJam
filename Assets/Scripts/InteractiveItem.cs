@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class ObjectManager : MonoBehaviour
+public class InteractiveItem : MonoBehaviour
 {
     public bool useText = true;
     public TextAnimation textTarget;

@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
-public class Item : MonoBehaviour
+public class InventoryItem : MonoBehaviour
 {
     [Tooltip("Nazwa wyœwietlana w inventory")]
     public string itemName;
