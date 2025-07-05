@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Collider2D))]
-public class ObjectManager : MonoBehaviour
+public class InteractiveItem : MonoBehaviour
 {
     public bool useText = false;
     TextAnimation textTarget;
