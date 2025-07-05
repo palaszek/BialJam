@@ -9,8 +9,6 @@ public class HumanityBarController : MonoBehaviour
     
     void Start() => UpdateVisual();
 
-    void OnValidate() => UpdateVisual();
-
     void Update() => UpdateVisual();
 
     void UpdateVisual()

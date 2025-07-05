@@ -26,9 +26,9 @@ public class ObjectManager : MonoBehaviour
         cam = Camera.main;
         self = GetComponent<Collider2D>();
 
-        if (textTarget == null) textTarget = FindObjectOfType<TextAnimation>(true);
-        if (humanity == null) humanity = FindObjectOfType<Humanity>(true);
-        if (noteTarget == null) noteTarget = FindObjectOfType<NoteManager>(true);
+        if (textTarget == null) textTarget = FindFirstObjectByType<TextAnimation>();
+        if (humanity == null) humanity = FindFirstObjectByType<Humanity>();
+        if (noteTarget == null) noteTarget = FindFirstObjectByType<NoteManager>();
 
         childSprites = GetComponentsInChildren<SpriteRenderer>(true);
         foreach (var sr in childSprites)
