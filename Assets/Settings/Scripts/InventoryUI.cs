@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InventoryUI : MonoBehaviour
 {
     [Header("Sloty UI")]
-    public Image[] slotImages;      // <-- tu przeci¹gnij 3 Image z ekranu
+    public Image[] slotImages;
     public Sprite emptySlotSprite;
 
     void Start()
