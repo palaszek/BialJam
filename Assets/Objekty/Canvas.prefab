@@ -167,10 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f798eb825f6c974449f032b0169b0d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  slotImages:
+  - {fileID: 7795579620432091069}
+  - {fileID: 2111528948985883625}
+  - {fileID: 1378210472467055104}
   emptySlotSprite: {fileID: -1432957167796845709, guid: 2e25985c1d8fe474cbf04821e38f6a59, type: 3}
 --- !u!1 &2441353107364508422
 GameObject:
@@ -890,10 +890,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 756014332663416953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 62.1}
-  m_SizeDelta: {x: 1763.79, y: 64.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 506, y: 41.7}
+  m_SizeDelta: {x: 936.1, y: 34.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6020420073865597363
 CanvasRenderer:

@@ -59,18 +59,6 @@ public class InventoryManager : MonoBehaviour
         textAnimation.Play($"Zebrano: {item.itemName}");
     }
 
-    public bool RemoveSelectedItem()
-    {
-        var sel = GetSelectedItem();
-        if (sel == null) return false;
-        items.Remove(sel);
-        inventoryUI.UpdateUI(items);
-        inventoryUI.Deselect();
-        textAnimation.Play($"U¿yto: {sel.itemName}");
-        return true;
-    }
-    public InventoryItem GetSelectedItem()
-      => inventoryUI.GetSelectedItem(items);
 
     public bool HasItem(string itemName)
     {
