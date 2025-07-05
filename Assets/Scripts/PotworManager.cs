@@ -1,14 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PotworManager : MonoBehaviour
 {
     public Humanity humanity;
     public Sprite[] sprites = new Sprite[4];
-    SpriteRenderer sr;
-
+    Image sr;
     void Awake()
     {
-        sr = GetComponent<SpriteRenderer>();
+        sr = GetComponent<Image>();
     }
 
     void Update()

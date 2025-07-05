@@ -659,7 +659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NazwaSceny: Scena2
   CzasPrzejscia: 1
-  transition: {fileID: 0}
+  transition: {fileID: 632889939}
 --- !u!61 &2002982557
 BoxCollider2D:
   m_ObjectHideFlags: 0
