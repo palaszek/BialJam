@@ -4,30 +4,42 @@ using UnityEngine.InputSystem;
 
 public class NoteManager : MonoBehaviour
 {
-    Image note;
+    Image noteBg;
     Image noteInner;
-    Sprite[] noteSprites;
-    int index;
+    public Sprite[] noteSprites;
+    int openedFrame = -1;
+    public static bool IsOpen { get; private set; }
 
     void Awake()
     {
-        if (note == null) note = GetComponent<Image>();
-        if (noteInner == null && note != null) noteInner = note.GetComponentInChildren<Image>(true);
-        note.enabled = false;
-        noteInner.enabled = false;
+        noteBg = GetComponent<Image>();
+        foreach (var img in GetComponentsInChildren<Image>(true))
+            if (img != noteBg) { noteInner = img; break; }
+        Hide();
     }
 
     void Update()
     {
-        if (note.enabled == true && Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            note.enabled = false;
-            noteInner.enabled = false;
-        }
+        if (!IsOpen) return;
+        if (Time.frameCount == openedFrame) return;
+        if (Mouse.current.leftButton.wasPressedThisFrame) Hide();
     }
 
-    public void Show()
+    public void Show(int index = 0)
     {
-        note.enabled = true;
+        if (noteSprites != null && noteSprites.Length > 0)
+            noteInner.sprite = noteSprites[Mathf.Clamp(index, 0, noteSprites.Length - 1)];
+        noteBg.enabled = true;
+        noteInner.enabled = true;
+        openedFrame = Time.frameCount;
+        IsOpen = true;
+    }
+
+    public void Hide()
+    {
+        noteBg.enabled = false;
+        noteInner.enabled = false;
+        openedFrame = -1;
+        IsOpen = false;
     }
 }
