@@ -127,10 +127,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 166922587907419015, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: emptySlotSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 756014332663416953, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 756014332663416953, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 756014332663416953, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.019802
+      objectReference: {fileID: 0}
+    - target: {fileID: 756014332663416953, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: humanity
       value: 
       objectReference: {fileID: 532406883}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: 'sprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 3136411389044545387, guid: 66e76d60ab33a254882672f9e5118c73, type: 3}
     - target: {fileID: 6880812681722693277, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Name
       value: Canvas
