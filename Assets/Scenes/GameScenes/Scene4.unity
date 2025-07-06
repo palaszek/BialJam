@@ -685,8 +685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: "Poch\u0142aniasz kota"
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: -5
   useNote: 0
   noteIndex: 0
   useHoverText: 0
@@ -797,7 +797,7 @@ MonoBehaviour:
   useText: 1
   newText: "Poch\u0142aniasz kor\u0119"
   useHumanity: 1
-  humanityAmount: 15
+  humanityAmount: -10
   useNote: 0
   noteIndex: 0
   useHoverText: 0
@@ -1597,8 +1597,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: Znajdujesz magiczny kwiat
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 10
   useNote: 0
   noteIndex: 0
   useHoverText: 0

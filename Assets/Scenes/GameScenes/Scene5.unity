@@ -496,8 +496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: "Przechodzisz przez kamienny \u0142uk"
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 10
   useNote: 0
   noteIndex: 0
   useHoverText: 1
@@ -868,8 +868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: "Nic nie znalaz\u0142e\u015B"
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 20
   useNote: 0
   noteIndex: 0
   useHoverText: 0
@@ -1250,8 +1250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: "Wchodzisz na g\xF3re"
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 10
   useNote: 0
   noteIndex: 0
   useHoverText: 1
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   useText: 1
   newText: "Poch\u0142aniasz ptaka"
   useHumanity: 1
-  humanityAmount: -10
+  humanityAmount: -5
   useNote: 0
   noteIndex: 0
   useHoverText: 0
@@ -1914,7 +1914,7 @@ MonoBehaviour:
   useText: 1
   newText: "Pochlaniasz ko\u015B\u0107."
   useHumanity: 1
-  humanityAmount: -10
+  humanityAmount: -5
   useNote: 0
   noteIndex: 0
   useHoverText: 0
