@@ -34,10 +34,19 @@ public class InteractionManager : MonoBehaviour
         }
 
         // 2) Masz item, wiêc wykonaj akcjê
-        textAnimation.Play($"U¿ywasz: {req.requiredItemName}");
+        //textAnimation.Play($"U¿ywasz: {req.requiredItemName}");
         req.onUse.Invoke();
 
         // 3) Usuñ go z inventory
         inventoryManager.RemoveItemByName(req.requiredItemName);
+
+
+        if (req.rewardItemPrefab != null)
+        {
+            // 4a) Stwórz instancjê prefab-a
+            var rewardInstance = Instantiate(req.rewardItemPrefab);
+            // 4b) Dodaj do ekwipunku (TryAddItem wy³¹czy GameObject, wiêc nie zostanie w œwiecie)
+            inventoryManager.TryAddItem(rewardInstance);
+        }
     }
 }

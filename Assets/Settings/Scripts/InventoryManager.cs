@@ -46,7 +46,7 @@ public class InventoryManager : MonoBehaviour
             TryAddItem(item);
     }
 
-    void TryAddItem(InventoryItem item)
+    public void TryAddItem(InventoryItem item)
     {
         if (items.Count >= maxItems)
         {

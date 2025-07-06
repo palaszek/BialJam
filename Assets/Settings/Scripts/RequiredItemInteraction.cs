@@ -18,6 +18,9 @@ public class RequiredItemInteraction : MonoBehaviour
     [Tooltip("Sprite, który bêdzie ustawiony po u¿yciu")]
     public Sprite usedSprite;
 
+    [Header("Nagroda — prefab z InventoryItem")]
+    public InventoryItem rewardItemPrefab;
+
     void Awake()
     {
         var col = GetComponent<Collider2D>();
