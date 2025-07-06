@@ -1,26 +1,14 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
-public class ExitGame : MonoBehaviour
+public class ExitGameUI : MonoBehaviour, IPointerClickHandler
 {
-    Camera cam;
-    Collider2D self;
-
-    void Awake()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        cam = Camera.main;
-        self = GetComponent<Collider2D>();
-    }
-
-    void Update()
-    {
-        var pos = Mouse.current.position.ReadValue();
-        var hit = Physics2D.GetRayIntersection(cam.ScreenPointToRay(pos));
-        bool over = hit.collider == self;
-
-        if (!Mouse.current.leftButton.wasPressedThisFrame || !over) return;
-
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 }
