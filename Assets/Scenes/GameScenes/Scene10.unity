@@ -151,6 +151,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -189.54
       objectReference: {fileID: 0}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 1390741630}
     - target: {fileID: 6312755239738471561, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Name
       value: HumanityBarBG
@@ -167,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7950810421689892450, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 1390741630}
     - target: {fileID: 8078771476718589590, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -599,6 +607,28 @@ MonoBehaviour:
   targetRenderer: {fileID: 578679043}
   usedSprite: {fileID: 6901697368828901112, guid: 1ba33e588e9774a4aaabb86f42eed9a0, type: 3}
   rewardItemPrefab: {fileID: 876924529}
+--- !u!114 &578679046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578679041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aaa004f1be35074a9a050f951429b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useText: 1
+  newText: "Znalaz\u0142e\u015B magiczny kamie\u0144"
+  useHumanity: 1
+  humanityAmount: 10
+  useNote: 0
+  noteIndex: 0
+  useHoverText: 1
+  hoverText: "U\u017Cyj klucza"
+  hideOnClick: 0
+  AudioOnClick: 1
 --- !u!1 &676509757
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,8 +959,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: Przechodzisz pod portal
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 10
   useNote: 0
   noteIndex: 0
   useHoverText: 1
@@ -991,7 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d512fe089d654489fa019818ff923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "Magiczny Kamie\u0144"
+  itemName: "Magiczny kamie\u0144"
   icon: {fileID: -2351080739019150606, guid: 3dc743b74ff169c42935daf38299ef22, type: 3}
   hideOnClick: 0
 --- !u!60 &876924530
@@ -1226,6 +1256,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+--- !u!114 &1390741630 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3491011627465876793, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+  m_PrefabInstance: {fileID: 1390741629}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3997288ed73e34fbd68ad1da95c366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1499758701
 GameObject:
   m_ObjectHideFlags: 0

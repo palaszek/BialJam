@@ -1038,8 +1038,8 @@ MonoBehaviour:
   useText: 1
   newText: "Po dotkni\u0119ciu pomnika konstrukacja si\u0119 wali i powracasz na
     le\u015Bn\u0105 polan\u0119."
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 20
   useNote: 0
   noteIndex: 0
   useHoverText: 1
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   newText: "Poch\u0142aniasz pluszaka, konstrukacja si\u0119 wali i powracasz na
     le\u015Bn\u0105 polan\u0119"
   useHumanity: 1
-  humanityAmount: 25
+  humanityAmount: -10
   useNote: 0
   noteIndex: 0
   useHoverText: 1
@@ -1581,8 +1581,8 @@ MonoBehaviour:
   useText: 1
   newText: "Zabierasz r\xF3\u017C\u0119. Po wyj\u0119ciu jej z wazonu konstrukacja
     si\u0119 wali i powracasz na le\u015Bn\u0105 polan\u0119"
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 10
   useNote: 0
   noteIndex: 0
   useHoverText: 1

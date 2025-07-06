@@ -238,6 +238,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -189.54
       objectReference: {fileID: 0}
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 492832030}
     - target: {fileID: 6312755239738471561, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Name
       value: HumanityBarBG
@@ -254,6 +258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7950810421689892450, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 492832030}
     - target: {fileID: 8078771476718589590, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -347,6 +355,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+--- !u!1001 &492832029
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.86787
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.34095
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964869790052789303, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876225194090135362, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+--- !u!114 &492832030 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3491011627465876793, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+  m_PrefabInstance: {fileID: 492832029}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3997288ed73e34fbd68ad1da95c366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &676509757
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,8 +647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: "Podchodzisz bli\u017Cej ogrodzenia"
-  useHumanity: 0
-  humanityAmount: 0
+  useHumanity: 1
+  humanityAmount: 10
   useNote: 0
   noteIndex: 0
   useHoverText: 1
@@ -682,7 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useText: 1
   newText: "Aby otworzy\u0107 portal potrzebujesz magicznego kamienia"
-  useHumanity: 0
+  useHumanity: 1
   humanityAmount: 0
   useNote: 0
   noteIndex: 0
@@ -925,3 +1001,4 @@ SceneRoots:
   - {fileID: 1806262072}
   - {fileID: 2076035680}
   - {fileID: 676509758}
+  - {fileID: 492832029}
