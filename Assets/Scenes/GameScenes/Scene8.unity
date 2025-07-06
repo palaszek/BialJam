@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 1124300066}
   - component: {fileID: 1124300065}
   - component: {fileID: 1124300064}
+  - component: {fileID: 1124300067}
   m_Layer: 0
   m_Name: Illustion4_0
   m_TagString: Untagged
@@ -427,7 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ccf7b6db3cb5e94b8219939e1eaa3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NazwaSceny: Scene6
+  NazwaSceny: Scene9
   CzasPrzejscia: 1
   transition: {fileID: 2076035681}
 --- !u!60 &1124300065
@@ -556,6 +557,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1124300067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124300062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aaa004f1be35074a9a050f951429b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useText: 1
+  newText: "Podchodzisz bli\u017Cej ogrodzenia"
+  useHumanity: 0
+  humanityAmount: 0
+  useNote: 0
+  noteIndex: 0
+  useHoverText: 0
+  hoverText: 
+  hideOnClick: 0
+  AudioOnClick: 1
 --- !u!1 &1760563398
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,6 +589,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1760563399}
   - component: {fileID: 1760563400}
+  - component: {fileID: 1760563402}
+  - component: {fileID: 1760563401}
   m_Layer: 0
   m_Name: Illustion54_0
   m_TagString: Untagged
@@ -643,6 +668,124 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1760563401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760563398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aaa004f1be35074a9a050f951429b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useText: 1
+  newText: "Aby otworzy\u0107 portal potrzebujesz magicznego kamienia"
+  useHumanity: 0
+  humanityAmount: 0
+  useNote: 0
+  noteIndex: 0
+  useHoverText: 0
+  hoverText: 
+  hideOnClick: 0
+  AudioOnClick: 1
+--- !u!60 &1760563402
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760563398}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.06, y: 3.1510253}
+    newSize: {x: 3.06, y: 3.1510253}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.79617196, y: -1.3498472}
+      - {x: 0.8884571, y: -1.2985777}
+      - {x: 1.1448047, y: -1.0524839}
+      - {x: 1.2370899, y: -0.92943704}
+      - {x: 1.3088672, y: -0.826898}
+      - {x: 1.4626758, y: -0.5192808}
+      - {x: 1.5344532, y: -0.1911558}
+      - {x: 1.5344532, y: 0.1472231}
+      - {x: 1.5036914, y: 0.33179343}
+      - {x: 1.4626758, y: 0.49585593}
+      - {x: 1.4216602, y: 0.6086489}
+      - {x: 1.3498828, y: 0.7727114}
+      - {x: 1.2781055, y: 0.8957583}
+      - {x: 1.2063282, y: 0.9880434}
+      - {x: 1.1448047, y: 1.0700747}
+      - {x: 0.91921884, y: 1.2854067}
+      - {x: 0.79617196, y: 1.3776919}
+      - {x: 0.49880868, y: 1.5212466}
+      - {x: 0.3450001, y: 1.5520083}
+      - {x: 0.10916023, y: 1.5930239}
+      - {x: -0.15744133, y: 1.5930239}
+      - {x: -0.35226554, y: 1.5520083}
+      - {x: -0.48556632, y: 1.5109926}
+      - {x: -0.741914, y: 1.3981997}
+      - {x: -0.85470694, y: 1.3366762}
+      - {x: -0.9880077, y: 1.2238833}
+      - {x: -1.1418164, y: 1.0700747}
+      - {x: -1.295625, y: 0.86499655}
+      - {x: -1.3879101, y: 0.68042624}
+      - {x: -1.4596875, y: 0.52661765}
+      - {x: -1.510957, y: 0.32153952}
+      - {x: -1.5314648, y: 0.106207475}
+      - {x: -1.5314648, y: -0.09887065}
+      - {x: -1.5007031, y: -0.3654722}
+      - {x: -1.4289258, y: -0.5602964}
+      - {x: -1.3776562, y: -0.6833433}
+      - {x: -1.2751172, y: -0.8781675}
+      - {x: -1.1930859, y: -0.9909605}
+      - {x: -0.9880077, y: -1.2062925}
+      - {x: -0.9264843, y: -1.257562}
+      - {x: -0.7931835, y: -1.3601011}
+      - {x: -0.50607413, y: -1.4934019}
+      - {x: -0.41378897, y: -1.5241636}
+      - {x: -0.15744133, y: -1.5651792}
+      - {x: -0.06515618, y: -1.5754331}
+      - {x: 0.07839851, y: -1.5754331}
+      - {x: 0.30398446, y: -1.5446714}
+      - {x: 0.45779306, y: -1.5036558}
+      - {x: 0.61160165, y: -1.4421324}
+  m_UseDelaunayMesh: 0
 --- !u!1001 &1806262072
 PrefabInstance:
   m_ObjectHideFlags: 0
