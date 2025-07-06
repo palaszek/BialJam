@@ -942,6 +942,7 @@ MonoBehaviour:
   useHoverText: 1
   hoverText: Drzewa
   hideOnClick: 0
+  AudioOnClick: 1
 --- !u!95 &357383510 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6297963560508299254, guid: 454bd5e403aef524b8bfbf3a72539ff5, type: 3}
@@ -1167,6 +1168,7 @@ MonoBehaviour:
   useHoverText: 1
   hoverText: POCIAG
   hideOnClick: 0
+  AudioOnClick: 1
 --- !u!1001 &510455753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1180,6 +1182,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 113881741}
     - target: {fileID: 982349293141849315, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+      propertyPath: textAnimation
+      value: 
+      objectReference: {fileID: 113881740}
+    - target: {fileID: 2659615999496558267, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
       propertyPath: textAnimation
       value: 
       objectReference: {fileID: 113881740}
@@ -1549,6 +1555,7 @@ MonoBehaviour:
   useHoverText: 1
   hoverText: Niewinna istota
   hideOnClick: 1
+  AudioOnClick: 1
 --- !u!61 &1887957780
 BoxCollider2D:
   m_ObjectHideFlags: 0

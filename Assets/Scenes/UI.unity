@@ -407,6 +407,7 @@ MonoBehaviour:
   NazwaSceny: Scene0
   CzasPrzejscia: 1
   transition: {fileID: 852865157}
+  isUnlocked: 1
 --- !u!61 &1402786730
 BoxCollider2D:
   m_ObjectHideFlags: 0
