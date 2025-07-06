@@ -508,7 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteSprites:
   - {fileID: 7649670485036588283, guid: 8a11ab5e077565f4481da1218301788f, type: 3}
-  - {fileID: 6109699764011876604, guid: a5e5263de89f7ef448e8f50a941fa9fa, type: 3}
+  - {fileID: 9188750663210238456, guid: e7c6ca23ce68d9c45a628bc245707444, type: 3}
 --- !u!1 &4277802135573475319
 GameObject:
   m_ObjectHideFlags: 0
