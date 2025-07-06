@@ -72,7 +72,10 @@ public class InteractiveItem : MonoBehaviour
                     audioManager.PlaySFX(audioManager.U¿ycieItem);
                 }
                 if (useText && textTarget != null) textTarget.Play(newText);
-                if (useHumanity && humanity != null) humanity.Add(humanityAmount + 10);
+                if (humanity != null)
+                {
+                    if (useHumanity) { humanity.Add(humanityAmount); } else { humanity.Add(10); }
+                }
                 if (useNote && noteTarget != null) noteTarget.Show(noteIndex);
                 if (hideOnClick)
                 {
