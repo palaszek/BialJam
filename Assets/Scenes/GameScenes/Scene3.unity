@@ -358,7 +358,7 @@ MonoBehaviour:
   useText: 1
   newText: "Znalaz\u0142e\u015B notatk\u0119"
   useHumanity: 1
-  humanityAmount: 25
+  humanityAmount: 10
   useNote: 1
   noteIndex: 1
   useHoverText: 0
@@ -474,6 +474,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3359904194938309887, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 165.0214
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359904194938309887, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
     - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: humanity
       value: 

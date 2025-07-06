@@ -31,7 +31,7 @@ public class InteractiveItem : MonoBehaviour
     bool hoverShown;
     bool clickShown;
 
-    void Awake()
+    void Start()
     {
         cam = Camera.main;
         self = GetComponent<Collider2D>();
