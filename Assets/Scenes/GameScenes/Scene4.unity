@@ -388,10 +388,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5359477935680059721, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 1154317984}
     - target: {fileID: 6880812681722693277, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7950810421689892450, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
+      propertyPath: humanity
+      value: 
+      objectReference: {fileID: 1154317984}
     - target: {fileID: 8078771476718589590, guid: fe84f35d6e51cc642ac27faac9f2975c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -995,6 +1003,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+--- !u!114 &1154317984 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3491011627465876793, guid: 8e3fc8659c1b7f54c851bf984ec759a6, type: 3}
+  m_PrefabInstance: {fileID: 1154317983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3997288ed73e34fbd68ad1da95c366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1166903917
 GameObject:
   m_ObjectHideFlags: 0
