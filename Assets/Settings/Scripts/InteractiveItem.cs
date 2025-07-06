@@ -76,6 +76,7 @@ public class InteractiveItem : MonoBehaviour
                 {
                     if (useHumanity) { humanity.Add(humanityAmount); } else { humanity.Add(10); }
                 }
+                if (noteTarget == null) noteTarget = FindFirstObjectByType<NoteManager>();
                 if (useNote && noteTarget != null) noteTarget.Show(noteIndex);
                 if (hideOnClick)
                 {

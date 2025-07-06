@@ -10,7 +10,7 @@ public class NoteManager : MonoBehaviour
     int openedFrame = -1;
     public static bool IsOpen { get; private set; }
 
-    void Awake()
+    void Start()
     {
         noteBg = GetComponent<Image>();
         foreach (var img in GetComponentsInChildren<Image>(true))
