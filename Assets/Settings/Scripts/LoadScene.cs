@@ -11,11 +11,17 @@ public class LoadScene : MonoBehaviour
     // Update is called once per frame
     public Animator transition;
     Camera cam;
+    AudioManager audioManager;
+    private void OnAwake()
+    {
+       
+    }
     void Start()
     {
         cam = Camera.main;
         if (string.IsNullOrEmpty(NazwaSceny))
             Debug.LogWarning($"[{name}] nie ustawiono sceneName!");
+        audioManager = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -33,6 +39,10 @@ public class LoadScene : MonoBehaviour
         if (hit != null && hit.gameObject == gameObject)
         {
             // za³aduj scenê
+            if (audioManager != null)
+            {
+                audioManager.PlaySFX(audioManager.Chodzenie);
+            }
             LoadNextLevel(NazwaSceny);
         }
     }

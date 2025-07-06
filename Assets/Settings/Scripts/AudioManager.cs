@@ -7,8 +7,10 @@ public class AudioManager : MonoBehaviour
     [Header("Background Music")]
     public AudioClip background;
     [Header("Sound Effects")]
-    public AudioClip itemClick;
-    public AudioClip itemHover;
+    public AudioClip Chodzenie;
+    public AudioClip Jedzenie;
+    public AudioClip Otwieranie;
+    public AudioClip U¿ycieItem;
 
 
 

@@ -54,7 +54,10 @@ public class InventoryManager : MonoBehaviour
             return;
         }
         items.Add(item);
-        item.gameObject.SetActive(false);
+        if(item.hideOnClick)
+        {
+            item.gameObject.SetActive(false);
+        }
         inventoryUI.UpdateUI(items);
         textAnimation.Play($"Zebrano: {item.itemName}");
     }

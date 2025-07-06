@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1271813383865112811}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,8 +111,10 @@ MonoBehaviour:
   musicSource: {fileID: 2237409561279873862}
   sfxSource: {fileID: 1271813383865112811}
   background: {fileID: 8300000, guid: d2b8a5b8efb43a0448ba3698bd158d0a, type: 3}
-  itemClick: {fileID: 0}
-  itemHover: {fileID: 0}
+  Chodzenie: {fileID: 8300000, guid: 788f75c977f26b14fbd22360a09de4eb, type: 3}
+  Jedzenie: {fileID: 8300000, guid: a58503acc1f7eae44bfb924dfe8884ac, type: 3}
+  Otwieranie: {fileID: 8300000, guid: cb7bdab10ead386428e7cab99e4967b1, type: 3}
+  "U\u017CycieItem": {fileID: 8300000, guid: cb8013b21a6fc484a888a25b16290f00, type: 3}
 --- !u!82 &2237409561279873862
 AudioSource:
   m_ObjectHideFlags: 0

@@ -7,10 +7,11 @@ public class InventoryItem : MonoBehaviour
     public string itemName;
     [Tooltip("Ikona (opcjonalnie)")]
     public Sprite icon;
+    [Tooltip("Czy przedmiot ma znikn¹æ po klikniêciu")]
+    public bool hideOnClick = true;
 
     void Awake()
     {
-        // upewnij siê, ¿e collider jest triggerem (choæ przy klikaniu nie jest to konieczne)
         var col = GetComponent<Collider2D>();
         if (!col.isTrigger) col.isTrigger = true;
     }

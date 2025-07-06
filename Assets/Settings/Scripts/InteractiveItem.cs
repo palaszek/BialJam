@@ -22,11 +22,12 @@ public class InteractiveItem : MonoBehaviour
 
     public bool hideOnClick = false;
 
+    public bool AudioOnClick = true;
     Camera cam;
     Collider2D self;
     SpriteRenderer[] childSprites;
     SpriteRenderer rootSprite;
-
+    AudioManager audioManager;
     bool hoverShown;
     bool clickShown;
 
@@ -42,6 +43,7 @@ public class InteractiveItem : MonoBehaviour
         rootSprite = GetComponent<SpriteRenderer>();
         childSprites = GetComponentsInChildren<SpriteRenderer>(true);
         foreach (var sr in childSprites) if (sr.transform != transform) sr.enabled = false;
+        audioManager = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -65,6 +67,10 @@ public class InteractiveItem : MonoBehaviour
         {
             if (!clickShown)
             {
+                if (audioManager != null && AudioOnClick)
+                {
+                    audioManager.PlaySFX(audioManager.U¿ycieItem);
+                }
                 if (useText && textTarget != null) textTarget.Play(newText);
                 if (useHumanity && humanity != null) humanity.Add(humanityAmount);
                 if (useNote && noteTarget != null) noteTarget.Show(noteIndex);
