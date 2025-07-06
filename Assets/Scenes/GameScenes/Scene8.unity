@@ -575,8 +575,8 @@ MonoBehaviour:
   humanityAmount: 0
   useNote: 0
   noteIndex: 0
-  useHoverText: 0
-  hoverText: 
+  useHoverText: 1
+  hoverText: "Podejd\u017A do ogrodzenia"
   hideOnClick: 0
   AudioOnClick: 1
 --- !u!1 &1760563398
@@ -686,8 +686,8 @@ MonoBehaviour:
   humanityAmount: 0
   useNote: 0
   noteIndex: 0
-  useHoverText: 0
-  hoverText: 
+  useHoverText: 1
+  hoverText: Tajemniczy portal
   hideOnClick: 0
   AudioOnClick: 1
 --- !u!60 &1760563402

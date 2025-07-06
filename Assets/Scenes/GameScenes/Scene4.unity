@@ -514,8 +514,8 @@ MonoBehaviour:
   humanityAmount: 0
   useNote: 0
   noteIndex: 0
-  useHoverText: 1
-  hoverText: "Miku\u015B"
+  useHoverText: 0
+  hoverText: 
   hideOnClick: 1
   AudioOnClick: 1
 --- !u!1 &1073387616
@@ -626,7 +626,7 @@ MonoBehaviour:
   useNote: 0
   noteIndex: 0
   useHoverText: 1
-  hoverText: drzew
+  hoverText: Drzewo
   hideOnClick: 0
   AudioOnClick: 1
 --- !u!60 &1073387620
@@ -832,6 +832,7 @@ GameObject:
   - component: {fileID: 1166903921}
   - component: {fileID: 1166903920}
   - component: {fileID: 1166903919}
+  - component: {fileID: 1166903922}
   m_Layer: 0
   m_Name: Illustrat (1)_0
   m_TagString: Untagged
@@ -915,14 +916,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.38496095, y: -3.2631185}
-      - {x: 0.5138672, y: -3.2738607}
-      - {x: 0.675, y: -3.2738607}
-      - {x: 0.846875, y: -3.2846029}
-      - {x: 1.1691406, y: -3.2846029}
-      - {x: 1.2765625, y: -3.2738607}
-      - {x: 1.5558593, y: -3.2631185}
-      - {x: 1.6632812, y: -3.2523763}
+    - - {x: 0.42981577, y: -2.1641755}
+      - {x: 0.5811494, y: -2.1524897}
+      - {x: 0.78713703, y: -2.2197719}
+      - {x: 1.272996, y: -1.938958}
+      - {x: 1.5055517, y: -2.2753692}
+      - {x: 1.5456914, y: -2.6458933}
+      - {x: 1.6904237, y: -3.106126}
+      - {x: 1.820273, y: -3.162667}
       - {x: 1.8458984, y: -3.2416341}
       - {x: 1.8458984, y: -3.2631185}
       - {x: 1.9748046, y: -3.2523763}
@@ -1003,8 +1004,9 @@ PolygonCollider2D:
       - {x: -0.8503906, y: -3.295345}
       - {x: -0.31328124, y: -3.295345}
       - {x: -0.09843749, y: -3.2846029}
+      - {x: 0.0089844465, y: -3.2738607}
       - {x: 0.008984387, y: -3.2738607}
-      - {x: 0.1701172, y: -3.2631185}
+      - {x: 0.30468166, y: -2.0296106}
   m_UseDelaunayMesh: 0
 --- !u!212 &1166903921
 SpriteRenderer:
@@ -1061,6 +1063,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1166903922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166903917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aaa004f1be35074a9a050f951429b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useText: 0
+  newText: 
+  useHumanity: 0
+  humanityAmount: 0
+  useNote: 0
+  noteIndex: 0
+  useHoverText: 1
+  hoverText: "Wejd\u017A do lasu"
+  hideOnClick: 0
+  AudioOnClick: 1
 --- !u!1 &1583240263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,7 +1426,7 @@ MonoBehaviour:
   useNote: 0
   noteIndex: 0
   useHoverText: 1
-  hoverText: "Zwyk\u0142y krzak"
+  hoverText: Krzak
   hideOnClick: 0
   AudioOnClick: 1
 --- !u!114 &1583240269

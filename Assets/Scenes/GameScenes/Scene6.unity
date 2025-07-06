@@ -868,7 +868,7 @@ MonoBehaviour:
   useNote: 0
   noteIndex: 0
   useHoverText: 1
-  hoverText: "Pomnik p\u0142acz\u0105cego anio\u0142a. Przyprawia ci\u0119 o dreszcze"
+  hoverText: "Pomnik p\u0142acz\u0105cego anio\u0142a."
   hideOnClick: 0
   AudioOnClick: 1
 --- !u!114 &1121375943 stripped

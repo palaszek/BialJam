@@ -1377,8 +1377,8 @@ MonoBehaviour:
   humanityAmount: -15
   useNote: 0
   noteIndex: 0
-  useHoverText: 0
-  hoverText: 
+  useHoverText: 1
+  hoverText: "Pi\u0142a \u0142a\u0144cuchowa"
   hideOnClick: 1
   AudioOnClick: 1
 --- !u!60 &1862617977

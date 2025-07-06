@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 776240216}
   - component: {fileID: 776240218}
   - component: {fileID: 776240217}
+  - component: {fileID: 776240219}
   m_Layer: 0
   m_Name: element
   m_TagString: Untagged
@@ -525,6 +526,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.3349044, y: 9.549786}
   m_EdgeRadius: 0
+--- !u!114 &776240219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776240215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aaa004f1be35074a9a050f951429b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useText: 1
+  newText: "Wchodzisz do przedzia\u0142u"
+  useHumanity: 0
+  humanityAmount: 0
+  useNote: 0
+  noteIndex: 0
+  useHoverText: 1
+  hoverText: "Wejd\u017A do przedzia\u0142u"
+  hideOnClick: 0
+  AudioOnClick: 1
 --- !u!1 &1041142274
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +702,7 @@ MonoBehaviour:
   useNote: 0
   noteIndex: 0
   useHoverText: 1
-  hoverText: -d0
+  hoverText: "\u0106ma"
   hideOnClick: 1
   AudioOnClick: 1
 --- !u!1 &1088354975
@@ -836,7 +859,7 @@ MonoBehaviour:
   useNote: 0
   noteIndex: 0
   useHoverText: 1
-  hoverText: "S\u0142oik?"
+  hoverText: Serce
   hideOnClick: 1
   AudioOnClick: 1
 --- !u!1 &1216473278
@@ -993,7 +1016,7 @@ MonoBehaviour:
   useNote: 0
   noteIndex: 0
   useHoverText: 1
-  hoverText: "Pu\u0142apka"
+  hoverText: "Pu\u0142apka na nied\u017Awiedzie"
   hideOnClick: 1
   AudioOnClick: 1
 --- !u!1001 &1806262072

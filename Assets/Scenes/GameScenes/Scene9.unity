@@ -455,8 +455,8 @@ MonoBehaviour:
   humanityAmount: 0
   useNote: 0
   noteIndex: 0
-  useHoverText: 0
-  hoverText: 
+  useHoverText: 1
+  hoverText: "Przejd\u017A przez ogrodzenie"
   hideOnClick: 0
   AudioOnClick: 1
 --- !u!114 &148986444
