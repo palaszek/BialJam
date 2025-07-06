@@ -53,9 +53,13 @@ public class LoadScene : MonoBehaviour
     }
     IEnumerator LoadLevel(string sceneName)
     {
-        transition.SetTrigger("Start");
+        if(transition != null)
+        {
+            transition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(CzasPrzejscia); // Czas trwania animacji przejœcia
+            yield return new WaitForSeconds(CzasPrzejscia); // Czas trwania animacji przejœcia
+        }
+            
         SceneManager.LoadScene(sceneName);
 
     }

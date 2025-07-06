@@ -597,6 +597,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 578679043}
   usedSprite: {fileID: 6901697368828901112, guid: 1ba33e588e9774a4aaabb86f42eed9a0, type: 3}
   rewardItemPrefab: {fileID: 876924529}
+  spawnInWorld: 0
+  spawnPrefab: {fileID: 0}
 --- !u!1 &676509757
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d512fe089d654489fa019818ff923e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "Magiczny kamie\u0144"
+  itemName: "Magiczny Kamie\u0144"
   icon: {fileID: -2351080739019150606, guid: 3dc743b74ff169c42935daf38299ef22, type: 3}
   hideOnClick: 0
 --- !u!60 &876924530
