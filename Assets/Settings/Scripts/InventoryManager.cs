@@ -53,11 +53,27 @@ public class InventoryManager : MonoBehaviour
             textAnimation.Play("Inventory pe³ny!");
             return;
         }
-        items.Add(item);
-        if(item.hideOnClick)
-        {
+
+        // 1) Stwórz kopiê itemu
+        InventoryItem copy = Instantiate(item);
+
+        // 2) Ustaw klona poza ekranem
+        copy.transform.position = new Vector3(10000f, 10000f, 0f);
+
+        // 3) Wy³¹cz chowanko w klonie, ¿eby nie znika³ przy dodaniu
+        copy.hideOnClick = false;
+
+        // 4) Ukryj lub zniszcz orygina³ na scenie
+        if (item.hideOnClick)
             item.gameObject.SetActive(false);
-        }
+
+        // 5) Podmieñ rodzica (opcjonalne, ale pomaga w organizacji)
+        copy.transform.SetParent(transform);
+
+        // 6) Dodaj klona do listy
+        items.Add(copy);
+
+        // 7) Odœwie¿ UI i daj feedback
         inventoryUI.UpdateUI(items);
         textAnimation.Play($"Zebrano: {item.itemName}");
     }
