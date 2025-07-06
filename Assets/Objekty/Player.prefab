@@ -110,7 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 2237409561279873862}
   sfxSource: {fileID: 1271813383865112811}
-  background: {fileID: 8300000, guid: b1b3a177d14dc1f49b2d9d1b9e2d4899, type: 3}
+  background: {fileID: 8300000, guid: d2b8a5b8efb43a0448ba3698bd158d0a, type: 3}
   itemClick: {fileID: 0}
   itemHover: {fileID: 0}
 --- !u!82 &2237409561279873862
